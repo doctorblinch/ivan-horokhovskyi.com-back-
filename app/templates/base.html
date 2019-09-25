@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      td{
+        min-width: 50px;
+        margin-left: 100px;
+      }
+    </style>
+    <title>Search engine parser</title>
+  </head>
+  <body style="margin-left:2%;">
+    <div>
+      <a href="{{ url_for('index')}}"><h3>Main page</h3></a>
+    </div>
+    {% block content %}{% endblock %}
+  </body>
+</html>
